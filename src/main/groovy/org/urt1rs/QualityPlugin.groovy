@@ -1,4 +1,4 @@
-package org.royole
+package org.urt1rs
 
 import org.gradle.api.GradleException
 import org.gradle.api.Plugin

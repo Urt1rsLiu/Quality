@@ -7,7 +7,7 @@ plugins {
     id 'maven'
 }
 
-group 'org.royole'
+group 'org.urt1rs'
 version '1.1.0'
 
 sourceCompatibility = 1.8
@@ -30,7 +30,7 @@ def artifactId = 'quality'
 
 def POM_DESCRIPTION = 'a gradle plugin for checking code'   // 项目描述
 
-def NEXUS_USERNAME = 'royole'   //用户名
+def NEXUS_USERNAME = 'urt1rs'   //用户名
 
 def NEXUS_PASSWORD = 'Royole#1901'  //密码
 
