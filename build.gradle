@@ -15,7 +15,7 @@ sourceCompatibility = 1.8
 
 repositories {
     google()
-    jcenter()
+    jcenter() { url 'http://jcenter.bintray.com' }
 }
 
 dependencies {
@@ -40,21 +40,6 @@ def NEXUS_REPOSITORY_URL = 'http://172.16.100.140:8081/repository/releases/'  //
 task sourcesJar(type: Jar) {
     from sourceSets.main.allSource
     classifier = 'sources'
-    def var = "variable"
-    def a = { 
-        param1 ->
-        println "this is closure"
-//        println "variable: $param1"
-        println "param it : " + it
-        def b = {
-            println "this is closure b"
-            println "param it : " + it
-        }
-        b.call(23)
-//            println "param1: $param1"
-        return 45
-    }
-    println a.call()
 }
 
 // 要生成的artifacts
