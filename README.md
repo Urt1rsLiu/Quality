@@ -49,7 +49,7 @@ apply plugin: 'org.urt1rs.quality'
 
 4.双击执行其中的checkstyle或者findbugs任务，会输出代码中不规范的地方和原因，以及代码中可能的bug，如图：  
 
-![gradle tasks任务栏](/screenshot1.PNG)    
+![gradle tasks任务栏](/screenshot2.PNG)    
 
 
 
