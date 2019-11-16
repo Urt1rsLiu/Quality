@@ -17,7 +17,7 @@ buildscript {
     }
     dependencies {
         //...
-        classpath 'com.github.Urt1rsLiu:Quality:v1.1.0'
+        classpath 'com.github.Urt1rsLiu:Quality:1.1.0'
     }
 }
 ```
